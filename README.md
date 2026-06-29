@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006437-blue)](https://doi.org/10.82901/nemar.on006437)
+
 LIGHT Dataset                             
 
 During these guided imagery hypnotherapy sessions,   
