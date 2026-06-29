@@ -1,27 +1,91 @@
 {
   "version": "2.0",
-  "dataset_id": "on006437",
-  "source": "openneuro",
-  "source_id": "ds006437",
+  "pipeline_stage": "enriched",
   "title": "LIGHT Hypnotherapy",
+  "license": "CC0",
+  "dataset_type": "derivative",
   "authors": {
     "anonymous": {}
   },
-  "license": "CC0",
-  "dataset_type": "derivative",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006437.v1.1.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006437",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006437",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.10.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "4.6 GB (128 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "The LIGHT Hypnotherapy dataset comprises EEG and ECG recordings from guided imagery hypnotherapy sessions designed to enhance well-being through eudaemonic principles. Participants underwent baseline resting EEG assessment followed by multiple hypnotherapy sessions incorporating structured visualization techniques, relaxation induction, and guided imagery. This derivative dataset includes physiological recordings from in-lab sessions (sessions 1, 4, and 8) with detailed event markers documenting hypnotherapist-guided phase transitions throughout each session. Baseline resting EEG was recorded approximately 2 weeks before the first hypnotherapy session. Each hypnotherapy session followed a standardized protocol including guided relaxation/induction, visualization of a safe place, guided descent (10 steps), visualization and interaction with imagined objects (chair, crown), identification of light/color, and guided return to wakefulness. Dataset creators chose to remain anonymous to protect privacy while contributing to open science.",
+  "methods_description": "Baseline resting EEG was recorded for 5 minutes approximately 2 weeks before the first hypnotherapy session. EEG and ECG data were collected during in-lab hypnotherapy sessions (sessions 1, 4, and 8), while remaining sessions were conducted virtually without physiological recording. Each hypnotherapy session followed a standardized protocol including guided relaxation/induction, visualization of a safe place, guided descent (10 steps), visualization and interaction with imagined objects (chair, crown), identification of light/color, and guided return to wakefulness. Event markers document hypnotherapist phase transitions throughout variable-length recordings.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "ECG"
+    },
+    {
+      "term": "hypnotherapy"
+    },
+    {
+      "term": "guided imagery"
+    },
+    {
+      "term": "visualization"
+    },
+    {
+      "term": "well-being"
+    },
+    {
+      "term": "resting-state EEG"
+    },
+    {
+      "term": "eudaemonic well-being"
+    },
+    {
+      "term": "therapeutic intervention"
+    },
+    {
+      "term": "mind-body intervention"
+    },
+    {
+      "term": "relaxation techniques"
+    },
+    {
+      "term": "mental imagery"
+    },
+    {
+      "term": "baseline EEG"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "f8d94e74df5bc3df2b3443f06f61e92e416cac8da156aa7eb59edfef04679c0c"
 }
