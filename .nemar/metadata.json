@@ -1,12 +1,34 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "LIGHT Hypnotherapy",
+  "description": "This dataset contains EEG and ECG recordings collected during guided imagery hypnotherapy sessions designed to promote eudaemonic well-being through storytelling and deep visualization. Recordings include a baseline resting-state EEG session and EEG/ECG data from three in-person hypnotherapy sessions, with event markers denoting phase transitions within each session. The dataset is derived from a source OpenNeuro dataset and formatted according to BIDS standards.",
+  "methods_description": "Participants underwent a baseline 5-minute resting EEG recording two weeks prior to the first hypnotherapy session. During sessions 1, 4, and 8, EEG and ECG data were collected while a hypnotherapist guided participants through relaxation, visualization of a safe place, imagined descent down a path or stairway, visualization of a chair and crown, and a light traveling through the body, followed by a return to alertness. Session events marking hypnotherapist phase transitions were annotated.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
     "anonymous": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "ECG"
+    },
+    {
+      "term": "hypnotherapy"
+    },
+    {
+      "term": "guided imagery"
+    },
+    {
+      "term": "well-being"
+    },
+    {
+      "term": "resting state"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006437.v1.1.0",
@@ -25,10 +47,10 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "4.6 GB (128 files)"
   ],
@@ -40,52 +62,6 @@
     ".set",
     ".tsv",
     ".yml"
-  ],
-  "description": "The LIGHT Hypnotherapy dataset comprises EEG and ECG recordings from guided imagery hypnotherapy sessions designed to enhance well-being through eudaemonic principles. Participants underwent baseline resting EEG assessment followed by multiple hypnotherapy sessions incorporating structured visualization techniques, relaxation induction, and guided imagery. This derivative dataset includes physiological recordings from in-lab sessions (sessions 1, 4, and 8) with detailed event markers documenting hypnotherapist-guided phase transitions throughout each session. Baseline resting EEG was recorded approximately 2 weeks before the first hypnotherapy session. Each hypnotherapy session followed a standardized protocol including guided relaxation/induction, visualization of a safe place, guided descent (10 steps), visualization and interaction with imagined objects (chair, crown), identification of light/color, and guided return to wakefulness. Dataset creators chose to remain anonymous to protect privacy while contributing to open science.",
-  "methods_description": "Baseline resting EEG was recorded for 5 minutes approximately 2 weeks before the first hypnotherapy session. EEG and ECG data were collected during in-lab hypnotherapy sessions (sessions 1, 4, and 8), while remaining sessions were conducted virtually without physiological recording. Each hypnotherapy session followed a standardized protocol including guided relaxation/induction, visualization of a safe place, guided descent (10 steps), visualization and interaction with imagined objects (chair, crown), identification of light/color, and guided return to wakefulness. Event markers document hypnotherapist phase transitions throughout variable-length recordings.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "ECG"
-    },
-    {
-      "term": "hypnotherapy"
-    },
-    {
-      "term": "guided imagery"
-    },
-    {
-      "term": "visualization"
-    },
-    {
-      "term": "well-being"
-    },
-    {
-      "term": "resting-state EEG"
-    },
-    {
-      "term": "eudaemonic well-being"
-    },
-    {
-      "term": "therapeutic intervention"
-    },
-    {
-      "term": "mind-body intervention"
-    },
-    {
-      "term": "relaxation techniques"
-    },
-    {
-      "term": "mental imagery"
-    },
-    {
-      "term": "baseline EEG"
-    },
-    {
-      "term": "BIDS"
-    }
   ],
   "source_hash": "f8d94e74df5bc3df2b3443f06f61e92e416cac8da156aa7eb59edfef04679c0c"
 }
