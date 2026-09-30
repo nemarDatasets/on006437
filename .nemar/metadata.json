@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "LIGHT Hypnotherapy",
-  "description": "This dataset contains EEG and ECG recordings collected during guided imagery hypnotherapy sessions designed to promote eudaemonic well-being through storytelling and deep visualization. Recordings include a baseline resting-state EEG session and EEG/ECG data from three in-person hypnotherapy sessions, with event markers denoting phase transitions within each session. The dataset is derived from a source OpenNeuro dataset and formatted according to BIDS standards.",
-  "methods_description": "Participants underwent a baseline 5-minute resting EEG recording two weeks prior to the first hypnotherapy session. During sessions 1, 4, and 8, EEG and ECG data were collected while a hypnotherapist guided participants through relaxation, visualization of a safe place, imagined descent down a path or stairway, visualization of a chair and crown, and a light traveling through the body, followed by a return to alertness. Session events marking hypnotherapist phase transitions were annotated.",
+  "description": "EEG and ECG recordings collected during guided imagery hypnotherapy (LIGHT) sessions, in which a hypnotherapist uses storytelling and deep visualization to promote personal growth and well-being. The approach targets eudaemonic well-being, emphasizing meaning and self-realization, which distinguishes it from traditional hypnotherapy. The dataset includes a baseline resting EEG session and in-lab recordings from selected hypnotherapy sessions.",
+  "methods_description": "Baseline resting EEG (5 minutes) was recorded in the lab about 2 weeks before the first session (session 0). LIGHT sessions were conducted virtually, except sessions 1, 4, and 8, during which EEG and ECG were recorded. Each session followed a script of guided relaxation/induction, visualization of a place of comfort, a path or stairs, a chair and crown, and a light moving through the body, ending with a count up to an awake state. Hypnotherapy recordings vary in length and contain events marking hypnotherapist phase transitions.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,10 +17,15 @@
       "term": "ECG"
     },
     {
-      "term": "hypnotherapy"
+      "term": "Hypnosis",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006990"
     },
     {
       "term": "guided imagery"
+    },
+    {
+      "term": "hypnotherapy"
     },
     {
       "term": "well-being"
@@ -52,7 +57,7 @@
     "eeg"
   ],
   "sizes": [
-    "4.6 GB (128 files)"
+    "4.31 GB (128 files)"
   ],
   "formats": [
     ".fdt",
